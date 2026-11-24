@@ -1,0 +1,17 @@
+[project]
+name = "saas-base-api"
+version = "0.1.0"
+description = "API administrativa SaaS B2B para gestão de empresas, assinaturas e créditos de API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "sqlalchemy>=2.0.36",
+    "psycopg[binary]>=3.2.3",
+    "alembic>=1.14.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.6.0",
+]
+
+[tool.uv]
+package = false
